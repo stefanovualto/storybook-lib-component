@@ -3,6 +3,7 @@
   "private": true,
   "devDependencies": {
     "@babel/core": "^7.5.5",
+    "@storybook/addon-a11y": "^5.1.10",
     "@storybook/addon-actions": "^5.1.10",
     "@storybook/addon-knobs": "^5.1.10",
     "@storybook/addon-links": "^5.1.10",
