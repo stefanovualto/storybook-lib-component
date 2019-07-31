@@ -1,0 +1,21 @@
+{
+  "name": "@stefanovualto/vu-core",
+  "version": "0.0.0",
+  "description": "that's the core",
+  "keywords": [
+    "core"
+  ],
+  "author": "stefanovualto <stefano.nepa@vualto.com>",
+  "license": "MIT",
+  "main": "lib/vu-core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
