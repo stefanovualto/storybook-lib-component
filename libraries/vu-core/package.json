@@ -13,10 +13,23 @@
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "lib",
+    "src"
   ],
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "storybook": "start-storybook -p 6007",
+    "build-storybook": "build-storybook"
   },
-  "gitHead": "dc2bd77da8024102a44e8aaac98fe4f62e3ac9bb"
+  "gitHead": "dc2bd77da8024102a44e8aaac98fe4f62e3ac9bb",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@storybook/addon-actions": "^5.1.10",
+    "@storybook/addon-links": "^5.1.10",
+    "@storybook/addons": "^5.1.10",
+    "@storybook/vue": "^5.1.10",
+    "babel-loader": "^8.0.6",
+    "babel-preset-vue": "^2.0.2"
+  }
 }
