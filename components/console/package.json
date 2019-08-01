@@ -1,5 +1,5 @@
 {
-    "name": "@stefanovualto/console-component",
+    "name": "@vualto-test/console-component",
     "version": "0.0.1-alpha.0",
     "description": "Just a simple text component",
     "main": "lib/index.common.js",
@@ -9,5 +9,6 @@
     ],
     "scripts": {
         "transpile": "vue-cli-service build --mode production --name index --dest lib --target lib ./src/index.js"
-    }
+    },
+    "gitHead": "dc2bd77da8024102a44e8aaac98fe4f62e3ac9bb"
 }

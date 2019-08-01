@@ -1,5 +1,5 @@
 {
-  "name": "@stefanovualto/vu-core",
+  "name": "@vualto-test/vu-core",
   "version": "0.0.1-alpha.0",
   "description": "that's the core",
   "keywords": [
@@ -17,5 +17,6 @@
   ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  }
+  },
+  "gitHead": "dc2bd77da8024102a44e8aaac98fe4f62e3ac9bb"
 }
