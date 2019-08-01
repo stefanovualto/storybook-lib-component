@@ -1,10 +1,19 @@
 <meta charset="utf-8">
-<title>index demo</title>
-<script src="./index.umd.js"></script>
+<title>Console demo</title>
+<script src="https://unpkg.com/vue"></script>
+<script src="./Console.umd.js"></script>
 
-<link rel="stylesheet" href="./index.css">
+<link rel="stylesheet" href="./Console.css">
 
+
+<div id="app">
+  <demo></demo>
+</div>
 
 <script>
-console.log(index)
+new Vue({
+  components: {
+    demo: Console
+  }
+}).$mount('#app')
 </script>

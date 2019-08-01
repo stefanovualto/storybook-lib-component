@@ -1,5 +1,14 @@
-module.exports =
-/******/ (function(modules) { // webpackBootstrap
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory();
+	else if(typeof define === 'function' && define.amd)
+		define([], factory);
+	else if(typeof exports === 'object')
+		exports["Console"] = factory();
+	else
+		root["Console"] = factory();
+})((typeof self !== 'undefined' ? self : this), function() {
+return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -272,13 +281,10 @@ var component = normalizeComponent(
 )
 
 /* harmony default export */ var Console = (component.exports);
-// CONCATENATED MODULE: ./src/index.js
-
-/* harmony default export */ var src = (Console);
 // CONCATENATED MODULE: /Users/stefanonepa/dev/__sandbox/storybook-lib-component/node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
 
 
-/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (src);
+/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (Console);
 
 
 
@@ -345,5 +351,6 @@ var component = normalizeComponent(
 
 /***/ })
 
-/******/ });
-//# sourceMappingURL=index.common.js.map
+/******/ })["default"];
+});
+//# sourceMappingURL=Console.umd.js.map
