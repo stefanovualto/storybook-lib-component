@@ -8,6 +8,7 @@
 </template>
 <script>
 import vuCore from "vualto-test-vu-core";
+
 export default {
   name: "Console",
   props: {

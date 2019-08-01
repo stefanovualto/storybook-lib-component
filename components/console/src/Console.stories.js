@@ -2,7 +2,7 @@ import { storiesOf } from '@storybook/vue';
 import Console from '.';
 import README from '../README.md';
 import vuCore from "vualto-test-vu-core";
-import { withKnobs, text, boolean, number } from '@storybook/addon-knobs';
+import { withKnobs, text } from '@storybook/addon-knobs';
 
 const stories = storiesOf('Console', module);
 
