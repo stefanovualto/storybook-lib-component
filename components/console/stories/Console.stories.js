@@ -1,5 +1,5 @@
 import { storiesOf } from '@storybook/vue';
-import Console from '.';
+import Console from '../src';
 import README from '../README.md';
 import vuCore from "vualto-test-vu-core";
 import { withKnobs, text } from '@storybook/addon-knobs';
