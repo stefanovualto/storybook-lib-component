@@ -1,6 +1,6 @@
 {
   "name": "vualto-test-vu-core",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.1-alpha.3",
   "description": "that's the core",
   "keywords": [
     "core"
@@ -22,7 +22,6 @@
     "build-storybook": "build-storybook"
   },
   "gitHead": "dc2bd77da8024102a44e8aaac98fe4f62e3ac9bb",
-  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@storybook/addon-actions": "^5.1.10",
