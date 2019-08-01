@@ -1,6 +1,6 @@
 {
     "name": "vualto-test-console-component",
-    "version": "0.0.1-alpha.4",
+    "version": "0.0.1-alpha.5",
     "description": "Just a simple text component",
     "main": "src/index.js",
     "module": "src/index.js",
@@ -14,7 +14,7 @@
         "build-storybook": "build-storybook"
     },
     "dependencies": {
-        "vualto-test-vu-core": "^0.0.1-alpha.4"
+        "vualto-test-vu-core": "^0.0.1-alpha.5"
     },
     "gitHead": "dc2bd77da8024102a44e8aaac98fe4f62e3ac9bb"
 }
