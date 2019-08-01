@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "lib": ["es6", "dom", "esnext"],
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "target": "esnext"
+    },
+    "compileOnSave": true
+}

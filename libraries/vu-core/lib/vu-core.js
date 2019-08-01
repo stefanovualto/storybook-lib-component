@@ -1,7 +1,3 @@
-'use strict';
-
-module.exports = vuCore;
-
-function vuCore() {
-    return "This is fake content"
+export default function vuCore() {
+    return "This is fake content from ts";
 }

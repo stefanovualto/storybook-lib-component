@@ -1,7 +1,9 @@
 <template>
   <div>
     This is the console! here is the
+    <hr />
     <p>{{ content }}</p>
+    <hr />
     <input type="text" v-model="inValue" />
     <p>This is directly imported from my lib {{ content2 }}</p>
   </div>

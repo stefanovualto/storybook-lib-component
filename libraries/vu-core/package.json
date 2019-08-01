@@ -18,6 +18,7 @@
   ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
+    "build:ts": "tsc",
     "storybook": "start-storybook -p 6007",
     "build-storybook": "build-storybook"
   },
