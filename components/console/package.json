@@ -10,5 +10,8 @@
     "scripts": {
         "transpile": "vue-cli-service build --mode production --name index --dest lib --target lib ./src/index.js"
     },
+    "dependencies": {
+        "vualto-test-vu-core": "^0.0.1-alpha.2"
+    },
     "gitHead": "dc2bd77da8024102a44e8aaac98fe4f62e3ac9bb"
 }

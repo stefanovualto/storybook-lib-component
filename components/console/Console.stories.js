@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/vue';
 import Console from './src/';
 import README from './README.md';
-import vuCore from "../../packages/vu-core";
+import vuCore from "vualto-test-vu-core";
 import { withKnobs, text, boolean, number } from '@storybook/addon-knobs';
 
 const stories = storiesOf('Console', module);
@@ -18,7 +18,7 @@ stories.add('normal', () => {
       />
     `,
     data: () => ({
-        content: vuCore()
+        content: vuCore(),
     })
   };
 
