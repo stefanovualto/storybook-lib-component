@@ -20,9 +20,5 @@
     "vue-loader": "^15.7.1",
     "vue-template-compiler": "^2.6.10"
   },
-  "dependencies": {},
-  "scripts": {
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
-  }
+  "dependencies": {}
 }

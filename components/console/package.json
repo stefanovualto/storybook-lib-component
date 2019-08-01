@@ -2,16 +2,20 @@
     "name": "vualto-test-console-component",
     "version": "0.0.1-alpha.2",
     "description": "Just a simple text component",
-    "main": "lib/index.common.js",
+    "main": "src/index.js",
     "module": "src/index.js",
     "files": [
-        "lib"
+        "lib",
+        "src"
     ],
     "scripts": {
-        "transpile": "vue-cli-service build --mode production --name index --dest lib --target lib ./src/index.js"
+        "transpile": "vue-cli-service build --mode production --name index --dest lib --target lib ./src/index.js",
+        "storybook": "start-storybook -p 6008",
+        "build-storybook": "build-storybook"
     },
     "dependencies": {
         "vualto-test-vu-core": "^0.0.1-alpha.2"
     },
-    "gitHead": "dc2bd77da8024102a44e8aaac98fe4f62e3ac9bb"
+    "gitHead": "dc2bd77da8024102a44e8aaac98fe4f62e3ac9bb",
+    "devDependencies": {}
 }
