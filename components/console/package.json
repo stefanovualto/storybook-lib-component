@@ -1,0 +1,13 @@
+{
+    "name": "@stefanovualto/console-component",
+    "version": "0.0.0",
+    "description": "Just a simple text component",
+    "main": "lib/index.common.js",
+    "module": "src/index.js",
+    "files": [
+        "lib"
+    ],
+    "scripts": {
+        "transpile": "vue-cli-service build --mode production --name index --dest lib --target lib ./src/index.js"
+    }
+}

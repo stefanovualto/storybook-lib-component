@@ -11,6 +11,7 @@
     "@storybook/addon-viewport": "^5.1.10",
     "@storybook/addons": "^5.1.10",
     "@storybook/vue": "^5.1.10",
+    "@vue/cli-service": "^3.9.3",
     "babel-loader": "^8.0.6",
     "babel-preset-vue": "^2.0.2",
     "jest": "^24.8.0",

@@ -1,10 +1,15 @@
 import { storiesOf } from '@storybook/vue';
-import Console from './Console';
-import  vuCore from "../../packages/vu-core";
-import notes from './NOTES.md';
+import Console from './src/';
+import README from './README.md';
+import vuCore from "../../packages/vu-core";
+import { withKnobs, text, boolean, number } from '@storybook/addon-knobs';
 
-storiesOf('Console', module)
-  .add('normal', () => ({
+const stories = storiesOf('Console', module);
+
+stories.addDecorator(withKnobs);
+
+stories.add('normal', () => {
+  return {
     components: { Console },
     template:
     `
@@ -15,7 +20,28 @@ storiesOf('Console', module)
     data: () => ({
         content: vuCore()
     })
-  }),
+  };
+
+},
   {
-    notes: { markdown: notes },
+    notes: { markdown: README },
   })
+  .add('normal2', () => {
+    const content = text('content', 'Arunoda Susiripala');
+    return {
+      components: { Console },
+      template:
+      `
+        <Console
+          :content="content"
+        />
+      `,
+      data: () => ({
+          content: content
+      })
+    };
+  
+  },
+    {
+      notes: { markdown: README },
+    });
