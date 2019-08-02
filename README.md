@@ -5,3 +5,8 @@
 ```
 lerna run --scope [package name] storybook
 ```
+
+## runing tests
+```
+lerna run test
+```
