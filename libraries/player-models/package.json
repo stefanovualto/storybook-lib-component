@@ -1,0 +1,9 @@
+{
+    "name": "vualto-test-player-models",
+    "description": "description",
+    "main": "src/TextTrack.ts",
+    "version": "0.0.0",
+    "scripts": {
+        "build:ts": "tsc --declaration"
+    }
+}
