@@ -1,12 +1,11 @@
-export type TextTrack = Track &  {
+// export type TextTrack = Track &  {
+//     label: string;
+// }
+
+export type TextTrack = {
+    id: number;
+    lang: string;
     label: string;
-}
-
-type Track = {
-    id: number
-}
-
-let titi: TextTrack = {
-    id: 12,
-    label: "sdfds"
-}
+    kind: string;
+    defaultTrack: boolean;
+};
