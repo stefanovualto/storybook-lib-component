@@ -13,7 +13,7 @@
         "build-storybook": "build-storybook"
     },
     "dependencies": {
-        "vualto-test-vu-core": "^0.0.1-alpha.6"
+        "vualto-test-vu-core": "0.0.1-alpha.5"
     },
     "gitHead": "dc2bd77da8024102a44e8aaac98fe4f62e3ac9bb"
 }
