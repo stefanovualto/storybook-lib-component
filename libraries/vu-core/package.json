@@ -1,6 +1,6 @@
 {
   "name": "vualto-test-vu-core",
-  "version": "0.0.1-alpha.5",
+  "version": "0.0.1-alpha.6",
   "description": "that's the core",
   "keywords": [
     "core"
@@ -31,6 +31,6 @@
     "@storybook/vue": "^5.1.10",
     "babel-loader": "^8.0.6",
     "babel-preset-vue": "^2.0.2",
-    "vualto-test-player-models": "0.0.0"
+    "vualto-test-player-models": "^0.0.1-alpha.0"
   }
 }
